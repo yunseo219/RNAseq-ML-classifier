@@ -1,0 +1,71 @@
+ 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large for GitHub)
+data/raw/*
+data/processed/*.csv
+data/processed/*.csv.gz
+*.csv
+*.csv.gz
+*.txt.gz
+*.fastq
+*.fastq.gz
+*.bam
+*.h5
+*.hdf5
+
+# But keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Temp files
+temp/
+*.tmp
+*.temp
+*.log
+
+# AWS credentials (NEVER commit these!)
+.aws/
+*.pem
+credentials
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model files (usually too large)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+models/*.bin
+
+# Results (selective)
+results/*.png
+results/*.jpg
+results/*.pdf
