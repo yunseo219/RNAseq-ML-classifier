@@ -66,5 +66,3 @@ streamlit run app.py
 - [ ] Deploy to cloud (AWS/GCP)
 - [ ] Add API endpoint for batch predictions
 
-
-*This project demonstrates proficiency in bioinformatics, machine learning, and full-stack deployment.*
