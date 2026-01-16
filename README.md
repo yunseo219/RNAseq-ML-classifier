@@ -7,8 +7,6 @@
 ## 🏆 Key Achievement
 **Built an end-to-end ML pipeline achieving 73% AUC for predicting MCI to Alzheimer's conversion using blood RNA-seq data**
 
-![App Screenshot](docs/images/app_screenshot.png)
-
 ## 🎯 Business Impact
 - **Early Detection**: Identifies at-risk patients 2-3 years before AD onset
 - **Non-invasive**: Uses blood samples instead of expensive brain imaging
